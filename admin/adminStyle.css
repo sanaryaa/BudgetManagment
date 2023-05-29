@@ -1,0 +1,166 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .navbar {
+        width: 100%;
+        height: 60px;
+    }
+
+    .navbar .fs-4 {
+        color: #3f5a9f;
+    }
+
+    .pro-icon {
+        color: #3f5a9f;
+        font-size: 20px;
+        width: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+
+
+
+    .bt {
+        padding: 10px 36px;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #3f5a9f;
+        color: #3f5a9f;
+        margin: 5px
+    }
+
+    .bt a {
+        text-decoration: none;
+        color: #3f5a9f;
+        font-size: 20px;
+    }
+
+    .foodActive {
+        border: 1px solid #f59a51 !important;
+        color: #f59a51 !important;
+      }
+
+      .shoppingActive {
+        border: 1px solid #ba68c8 !important;
+        color: #ba68c8 !important;
+      }
+
+      .healthActive {
+        border: 1px solid #92e3a9 !important;
+        color: #92e3a9 !important;
+      }
+
+      .othersActive {
+        border: 1px solid #ffda83 !important;
+        color: #ffda83 !important;
+      }
+
+      .borrowActive{
+        border: 1px solid #0eb7ea !important;
+        color: #0eb7ea !important;
+      }
+      .lentActive{
+        border: 1px solid #6063ff !important;
+        color: #6063ff !important;
+      }
+      .userActive{
+        border: 1px solid #2f9f6b !important;
+        color: #2f9f6b !important;
+      }
+
+    .form-sec {
+        width: 100%;
+    }
+
+    input[type="text"] {
+        width: 600px;
+        height: 3rem;
+        border: 0;
+        border: 1px solid #3f5a9f;
+        border-radius: 0;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        margin-right: 5px;
+    }
+
+    .fs-5 {
+        width: 35px;
+        background-color: #3f5a9f;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    input[type="text"]:focus {
+        outline: none;
+        box-shadow: none;
+    }
+
+    input[type="text"]:focus {
+        border: 1px solid #3f5a9f;
+    }
+
+    input[type="submit"] {
+        width: 8rem;
+        height: 3rem;
+        border: 0;
+        background-color: #3f5a9f;
+        color: white;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+
+    input[type="submit"]:hover {
+        background-color: #3f5a9f;
+    }
+
+
+    .table-sec {
+        width: 100%;
+    }
+
+    .table-sec table {
+        border: 1px solid rgba(187, 200, 244, 0.31);
+    }
+
+    table thead {
+        background-color: #3f5a9f;
+    }
+
+    table thead tr th {
+        color: white;
+        text-align: center;
+    }
+
+    table tbody tr td,
+    table tbody tr th {
+        color: #3f5a9f;
+        text-align: center;
+    }
+
+    @media (max-width:750px) {
+        input[type="text"] {
+            width: 85%;
+
+        }
+
+        .fs-5 {
+            width: 15%
+        }
+
+        input[type="submit"] {
+            width: 5rem;
+
+        }
+    }
+
